@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hansbruckner.github.io/IowaCity-CheapFood-Guide/sitemap.xml
