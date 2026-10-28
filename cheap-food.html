@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Iowa City Cheap Food | Penny Plate IC</title>
+<meta name="description" content="Browse cheap meals in Iowa City by price: under $5, under $10, and under $20, with distance from campus and student picks.">
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;line-height:1.6;color:#2b2118;background:#fffaf0}
+a{color:#0b5394}
+.notice{background:#1f2a30;color:#fff;padding:10px 16px;font-size:.85rem;text-align:center}
+.site-header{background:#f2b705;padding:16px}
+.brand{font-size:1.7rem;font-weight:bold;color:#1f2a30;text-decoration:none}
+.tagline{margin:2px 0 0;color:#1f2a30;font-size:.95rem}
+nav ul{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+nav a{display:block;padding:8px 14px;background:#1f2a30;color:#fff;border:2px solid #1f2a30;border-radius:6px;text-decoration:none;font-weight:bold;font-size:.95rem}
+nav a[aria-current="page"]{background:#fff;color:#1f2a30}
+main{max-width:960px;margin:0 auto;padding:20px 16px}
+h1{font-size:1.9rem;line-height:1.2;margin:.3em 0}
+h2{font-size:1.4rem;margin:1.6em 0 .4em;border-bottom:3px solid #f2b705;padding-bottom:4px}
+h3{font-size:1.1rem;margin:.2em 0 .3em}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{background:#fff;border:1px solid #e6d8b8;border-radius:10px;padding:16px}
+.card p{margin:.4em 0}
+.tag{display:inline-block;background:#2e7d4f;color:#fff;font-size:.78rem;padding:2px 9px;border-radius:12px;margin:2px 4px 2px 0}
+.tag.gold{background:#f2b705;color:#1f2a30}
+.price{font-size:1.5rem;font-weight:bold;color:#2e7d4f}
+.table-wrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;background:#fff;min-width:520px}
+th,td{border:1px solid #e6d8b8;padding:8px 10px;text-align:left;vertical-align:top;font-size:.95rem}
+th{background:#1f2a30;color:#fff}
+.hero{background:#fff;border:1px solid #e6d8b8;border-radius:10px;padding:20px}
+.site-footer{background:#1f2a30;color:#fff;padding:20px 16px;margin-top:30px;font-size:.9rem}
+.site-footer a{color:#f2b705}
+.site-footer .inner{max-width:960px;margin:0 auto}
+@media (min-width:700px){h1{font-size:2.4rem}}
+</style>
+</head>
+<body>
+
+<div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+
+<header class="site-header">
+  <a class="brand" href="index.html">Penny Plate IC</a>
+  <p class="tagline">Cheap meals, weekly deals, and student discounts in Iowa City</p>
+  <nav aria-label="Main navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="cheap-food.html" aria-current="page">Iowa City Cheap Food</a></li>
+      <li><a href="weekly-deals.html">Weekly Food Deals</a></li>
+      <li><a href="student-discounts.html">Student Discounts</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <h1>Iowa City Cheap Food</h1>
+    <p>Looking for cheap food in Iowa City? Start here. Every restaurant below is sorted by what a typical meal costs, so you can find a place that fits your budget in seconds. Distances are walking miles from the Pentacrest, and each listing tells you whether you can dine in, carry out, or do both.</p>
+    <p>Jump to a budget: <a href="#under-5">Under $5</a> | <a href="#under-10">Under $10</a> | <a href="#under-20">Under $20</a></p>
+  </section>
+
+  <h2 id="under-5">Meals under $5</h2>
+  <p>Perfect for a quick bite between classes or a late snack. Prices are for one person before tax and tip.</p>
+  <div class="grid">
+    <div class="card">
+      <h3>Dubuque Street Taqueria</h3>
+      <p><span class="tag">0.4 miles</span><span class="tag gold">Dine in or carry out</span></p>
+      <p><strong>Deal:</strong> Street tacos are $1.75 each on Tuesdays, so two tacos cost $3.50.</p>
+      <p><strong>Best day:</strong> Tuesday</p>
+      <p><strong>Student pick:</strong> The al pastor taco. It is the one reviewers order again.</p>
+    </div>
+    <div class="card">
+      <h3>Gilbert Street Slice Shop</h3>
+      <p><span class="tag">0.5 miles</span><span class="tag gold">Carry out</span></p>
+      <p><strong>Deal:</strong> Cheese slices are $2 after 9 p.m. on Thursdays.</p>
+      <p><strong>Best day:</strong> Thursday night</p>
+      <p><strong>Student pick:</strong> Ask for the corner slice if you like extra crust.</p>
+    </div>
+    <div class="card">
+      <h3>Coralville Strip Bagel Cart</h3>
+      <p><span class="tag">1.9 miles</span><span class="tag gold">Carry out</span></p>
+      <p><strong>Deal:</strong> A bagel breakfast sandwich is $3.99 before 10 a.m.</p>
+      <p><strong>Best day:</strong> Any weekday morning</p>
+      <p><strong>Student pick:</strong> The egg, cheddar, and chive combo on an everything bagel.</p>
+    </div>
+  </div>
+
+  <h2 id="under-10">Meals under $10</h2>
+  <p>These are real, filling meals. Most come with a side, and several include a drink.</p>
+  <div class="grid">
+    <div class="card">
+      <h3>Bowl and Bao Express</h3>
+      <p><span class="tag">0.3 miles</span><span class="tag gold">Dine in or carry out</span></p>
+      <p><strong>Deal:</strong> A weekday rice bowl combo with a drink is $7 from 11 a.m. to 2 p.m.</p>
+      <p><strong>Best day:</strong> Friday, when the two-item bao box is also $8.</p>
+      <p><strong>Student pick:</strong> The sesame chicken bowl with extra rice.</p>
+    </div>
+    <div class="card">
+      <h3>Old Capitol Pita Co.</h3>
+      <p><span class="tag">0.2 miles</span><span class="tag gold">Dine in or carry out</span></p>
+      <p><strong>Deal:</strong> A gyro plate is $8.50, and you get a free fountain drink with a student ID.</p>
+      <p><strong>Best day:</strong> Any day</p>
+      <p><strong>Student pick:</strong> Add the garlic fries for $1.50.</p>
+    </div>
+    <div class="card">
+      <h3>Clinton Street Burger Barn</h3>
+      <p><span class="tag">0.4 miles</span><span class="tag gold">Dine in</span></p>
+      <p><strong>Deal:</strong> A burger basket with fries is $9.25 on Wednesdays.</p>
+      <p><strong>Best day:</strong> Wednesday</p>
+      <p><strong>Student pick:</strong> Order the double with grilled onions and split a basket if you are not starving.</p>
+    </div>
+    <div class="card">
+      <h3>Sunny Side Bean and Rice Cafe</h3>
+      <p><span class="tag">0.9 miles</span><span class="tag gold">Dine in or carry out</span></p>
+      <p><strong>Deal:</strong> A burrito bowl with unlimited chips is $9 all day.</p>
+      <p><strong>Best day:</strong> Sunday, when kids and students both eat for less.</p>
+      <p><strong>Student pick:</strong> Black beans, rice, grilled veggies, and the smoky salsa.</p>
+    </div>
+  </div>
+
+  <h2 id="under-20">Meals under $20</h2>
+  <p>When you want to sit down, relax, and still stay on budget. These work well for birthdays, dates, and family visits.</p>
+  <div class="grid">
+    <div class="card">
+      <h3>Riverside Ramen Bar</h3>
+      <p><span class="tag">0.8 miles</span><span class="tag gold">Dine in or carry out</span></p>
+      <p><strong>Deal:</strong> A large ramen bowl is $14 on Mondays, with a free soft-boiled egg.</p>
+      <p><strong>Best day:</strong> Monday</p>
+      <p><strong>Student pick:</strong> The miso ramen with extra corn.</p>
+    </div>
+    <div class="card">
+      <h3>Ped Mall Pasta Kitchen</h3>
+      <p><span class="tag">0.3 miles</span><span class="tag gold">Dine in</span></p>
+      <p><strong>Deal:</strong> Pasta, house salad, and garlic bread for $15.50 on Mondays.</p>
+      <p><strong>Best day:</strong> Monday</p>
+      <p><strong>Student pick:</strong> The baked rigatoni, which makes good leftovers.</p>
+    </div>
+    <div class="card">
+      <h3>Iowa Avenue Supper Club</h3>
+      <p><span class="tag">0.7 miles</span><span class="tag gold">Dine in</span></p>
+      <p><strong>Deal:</strong> A two-course prix fixe is $18.99 from Sunday through Thursday.</p>
+      <p><strong>Best day:</strong> Sunday</p>
+      <p><strong>Student pick:</strong> Start with the tomato soup and finish with the apple crisp.</p>
+    </div>
+  </div>
+
+  <h2>Quick comparison</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Restaurant</th><th>Budget</th><th>Distance</th><th>Dine in / carry out</th><th>Best day</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Old Capitol Pita Co.</td><td>Under $10</td><td>0.2 miles</td><td>Both</td><td>Any day</td></tr>
+        <tr><td>Bowl and Bao Express</td><td>Under $10</td><td>0.3 miles</td><td>Both</td><td>Friday</td></tr>
+        <tr><td>Ped Mall Pasta Kitchen</td><td>Under $20</td><td>0.3 miles</td><td>Dine in</td><td>Monday</td></tr>
+        <tr><td>Dubuque Street Taqueria</td><td>Under $5</td><td>0.4 miles</td><td>Both</td><td>Tuesday</td></tr>
+        <tr><td>Clinton Street Burger Barn</td><td>Under $10</td><td>0.4 miles</td><td>Dine in</td><td>Wednesday</td></tr>
+        <tr><td>Gilbert Street Slice Shop</td><td>Under $5</td><td>0.5 miles</td><td>Carry out</td><td>Thursday night</td></tr>
+        <tr><td>Iowa Avenue Supper Club</td><td>Under $20</td><td>0.7 miles</td><td>Dine in</td><td>Sunday</td></tr>
+        <tr><td>Riverside Ramen Bar</td><td>Under $20</td><td>0.8 miles</td><td>Both</td><td>Monday</td></tr>
+        <tr><td>Sunny Side Bean and Rice Cafe</td><td>Under $10</td><td>0.9 miles</td><td>Both</td><td>Sunday</td></tr>
+        <tr><td>Coralville Strip Bagel Cart</td><td>Under $5</td><td>1.9 miles</td><td>Carry out</td><td>Weekday mornings</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Tips for eating cheap in Iowa City</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Go at off-peak times</h3>
+      <p>Lunch combos and early evening specials often cost less than dinner, and the lines are shorter.</p>
+    </div>
+    <div class="card">
+      <h3>Split and save</h3>
+      <p>Burger baskets and pasta plates are big. Splitting one with a friend can bring a meal under $5 each.</p>
+    </div>
+    <div class="card">
+      <h3>Ask about the drink</h3>
+      <p>A free or discounted drink can be worth $2 or more. Several listings include one with a student ID, so check the <a href="student-discounts.html">student discounts page</a>.</p>
+    </div>
+  </div>
+  <p>To plan around the best days, see the <a href="weekly-deals.html">weekly food deals page</a>.</p>
+</main>
+
+<footer class="site-footer">
+  <div class="inner">
+    <p>This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</p>
+    <p>
+      <a href="index.html">Home</a> |
+      <a href="cheap-food.html">Iowa City Cheap Food</a> |
+      <a href="weekly-deals.html">Weekly Food Deals</a> |
+      <a href="student-discounts.html">Student Discounts</a>
+    </p>
+    <p>All restaurants, prices, and people on this site are invented for a class project.</p>
+  </div>
+</footer>
+
+</body>
+</html>
