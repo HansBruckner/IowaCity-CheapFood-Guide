@@ -24,7 +24,7 @@ The prediction is wrong if the ratings are equal or if A scores higher, for exam
 The 1 to 7 rating on the first line of each reply. Replies with reasoning 
 
 ## 5. Sample size and dates
-200 trials (100 per version). All 200 will be collected,
+100 trials (50 per version). All 100 will be collected,
 Expected completion: November 29, 2026.
 
 ## 6. Comparison and decision rule
