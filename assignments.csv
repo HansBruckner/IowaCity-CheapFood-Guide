@@ -1,0 +1,9 @@
+import random, csv
+rng = random.Random(20261116)
+labels = ["A"] * 100 + ["B"] * 100
+rng.shuffle(labels)
+with open("assignments.csv", "w", newline="") as f:
+    w = csv.writer(f)
+    w.writerow(["trial", "version"])
+    for i, v in enumerate(labels, 1):
+        w.writerow([i, v])
